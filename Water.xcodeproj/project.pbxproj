@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF471F662058E81900E46667 /* MsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF471F652058E81900E46667 /* MsgView.m */; };
+		AF471F6B2058FAFC00E46667 /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AF471F6A2058FAFC00E46667 /* DataClass.m */; };
+		AF471F6E2058FC0400E46667 /* QuartzChart.m in Sources */ = {isa = PBXBuildFile; fileRef = AF471F6D2058FC0400E46667 /* QuartzChart.m */; };
+		AFF7A2022057B4D500F74313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A2012057B4D500F74313 /* AppDelegate.m */; };
+		AFF7A2052057B4D500F74313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A2042057B4D500F74313 /* ViewController.m */; };
+		AFF7A2082057B4D500F74313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF7A2062057B4D500F74313 /* Main.storyboard */; };
+		AFF7A20A2057B4D500F74313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF7A2092057B4D500F74313 /* Assets.xcassets */; };
+		AFF7A20D2057B4D500F74313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF7A20B2057B4D500F74313 /* LaunchScreen.storyboard */; };
+		AFF7A2102057B4D500F74313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A20F2057B4D500F74313 /* main.m */; };
+		AFF7A2182057BE0E00F74313 /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A2172057BE0E00F74313 /* GestureViewController.m */; };
+		AFF7A21B2057BE1D00F74313 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A21A2057BE1D00F74313 /* ChartViewController.m */; };
+		AFF7A21E2057C42900F74313 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A21D2057C42900F74313 /* TouchView.m */; };
+		AFF7A2242057CEB500F74313 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A2232057CEB500F74313 /* MainView.m */; };
+		AFF7A2272057D96600F74313 /* ToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF7A2262057D96600F74313 /* ToolView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF471F642058E81900E46667 /* MsgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MsgView.h; sourceTree = "<group>"; };
+		AF471F652058E81900E46667 /* MsgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MsgView.m; sourceTree = "<group>"; };
+		AF471F692058FAFC00E46667 /* DataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		AF471F6A2058FAFC00E46667 /* DataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
+		AF471F6C2058FC0400E46667 /* QuartzChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzChart.h; sourceTree = "<group>"; };
+		AF471F6D2058FC0400E46667 /* QuartzChart.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzChart.m; sourceTree = "<group>"; };
+		AFF7A1FD2057B4D500F74313 /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF7A2002057B4D500F74313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFF7A2012057B4D500F74313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFF7A2032057B4D500F74313 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFF7A2042057B4D500F74313 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFF7A2072057B4D500F74313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF7A2092057B4D500F74313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF7A20C2057B4D500F74313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF7A20E2057B4D500F74313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF7A20F2057B4D500F74313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFF7A2162057BE0E00F74313 /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		AFF7A2172057BE0E00F74313 /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		AFF7A2192057BE1D00F74313 /* ChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		AFF7A21A2057BE1D00F74313 /* ChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		AFF7A21C2057C42900F74313 /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		AFF7A21D2057C42900F74313 /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+		AFF7A2222057CEB500F74313 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		AFF7A2232057CEB500F74313 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		AFF7A2252057D96600F74313 /* ToolView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolView.h; sourceTree = "<group>"; };
+		AFF7A2262057D96600F74313 /* ToolView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF7A1FA2057B4D500F74313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFF7A1F42057B4D500F74313 = {
+			isa = PBXGroup;
+			children = (
+				AFF7A1FF2057B4D500F74313 /* Water */,
+				AFF7A1FE2057B4D500F74313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF7A1FE2057B4D500F74313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF7A1FD2057B4D500F74313 /* Water.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF7A1FF2057B4D500F74313 /* Water */ = {
+			isa = PBXGroup;
+			children = (
+				AFF7A2002057B4D500F74313 /* AppDelegate.h */,
+				AFF7A2012057B4D500F74313 /* AppDelegate.m */,
+				AFF7A2062057B4D500F74313 /* Main.storyboard */,
+				AFF7A2092057B4D500F74313 /* Assets.xcassets */,
+				AFF7A20B2057B4D500F74313 /* LaunchScreen.storyboard */,
+				AFF7A20E2057B4D500F74313 /* Info.plist */,
+				AFF7A20F2057B4D500F74313 /* main.m */,
+				AFF7A2032057B4D500F74313 /* ViewController.h */,
+				AFF7A2042057B4D500F74313 /* ViewController.m */,
+				AFF7A2222057CEB500F74313 /* MainView.h */,
+				AFF7A2232057CEB500F74313 /* MainView.m */,
+				AFF7A2162057BE0E00F74313 /* GestureViewController.h */,
+				AFF7A2172057BE0E00F74313 /* GestureViewController.m */,
+				AFF7A2252057D96600F74313 /* ToolView.h */,
+				AFF7A2262057D96600F74313 /* ToolView.m */,
+				AFF7A21C2057C42900F74313 /* TouchView.h */,
+				AFF7A21D2057C42900F74313 /* TouchView.m */,
+				AF471F642058E81900E46667 /* MsgView.h */,
+				AF471F652058E81900E46667 /* MsgView.m */,
+				AFF7A2192057BE1D00F74313 /* ChartViewController.h */,
+				AFF7A21A2057BE1D00F74313 /* ChartViewController.m */,
+				AF471F692058FAFC00E46667 /* DataClass.h */,
+				AF471F6A2058FAFC00E46667 /* DataClass.m */,
+				AF471F6C2058FC0400E46667 /* QuartzChart.h */,
+				AF471F6D2058FC0400E46667 /* QuartzChart.m */,
+			);
+			path = Water;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF7A1FC2057B4D500F74313 /* Water */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF7A2132057B4D500F74313 /* Build configuration list for PBXNativeTarget "Water" */;
+			buildPhases = (
+				AFF7A1F92057B4D500F74313 /* Sources */,
+				AFF7A1FA2057B4D500F74313 /* Frameworks */,
+				AFF7A1FB2057B4D500F74313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Water;
+			productName = Water;
+			productReference = AFF7A1FD2057B4D500F74313 /* Water.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF7A1F52057B4D500F74313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = joehe;
+				TargetAttributes = {
+					AFF7A1FC2057B4D500F74313 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFF7A1F82057B4D500F74313 /* Build configuration list for PBXProject "Water" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF7A1F42057B4D500F74313;
+			productRefGroup = AFF7A1FE2057B4D500F74313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF7A1FC2057B4D500F74313 /* Water */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF7A1FB2057B4D500F74313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF7A20D2057B4D500F74313 /* LaunchScreen.storyboard in Resources */,
+				AFF7A20A2057B4D500F74313 /* Assets.xcassets in Resources */,
+				AFF7A2082057B4D500F74313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF7A1F92057B4D500F74313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF471F662058E81900E46667 /* MsgView.m in Sources */,
+				AFF7A21E2057C42900F74313 /* TouchView.m in Sources */,
+				AFF7A2182057BE0E00F74313 /* GestureViewController.m in Sources */,
+				AFF7A2242057CEB500F74313 /* MainView.m in Sources */,
+				AFF7A2052057B4D500F74313 /* ViewController.m in Sources */,
+				AFF7A21B2057BE1D00F74313 /* ChartViewController.m in Sources */,
+				AF471F6B2058FAFC00E46667 /* DataClass.m in Sources */,
+				AFF7A2102057B4D500F74313 /* main.m in Sources */,
+				AFF7A2272057D96600F74313 /* ToolView.m in Sources */,
+				AF471F6E2058FC0400E46667 /* QuartzChart.m in Sources */,
+				AFF7A2022057B4D500F74313 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFF7A2062057B4D500F74313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF7A2072057B4D500F74313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF7A20B2057B4D500F74313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF7A20C2057B4D500F74313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF7A2112057B4D500F74313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFF7A2122057B4D500F74313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF7A2142057B4D500F74313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NFF66HPUR7;
+				INFOPLIST_FILE = Water/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.joehe.ios.Water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF7A2152057B4D500F74313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NFF66HPUR7;
+				INFOPLIST_FILE = Water/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.joehe.ios.Water;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF7A1F82057B4D500F74313 /* Build configuration list for PBXProject "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF7A2112057B4D500F74313 /* Debug */,
+				AFF7A2122057B4D500F74313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF7A2132057B4D500F74313 /* Build configuration list for PBXNativeTarget "Water" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF7A2142057B4D500F74313 /* Debug */,
+				AFF7A2152057B4D500F74313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF7A1F52057B4D500F74313 /* Project object */;
+}
